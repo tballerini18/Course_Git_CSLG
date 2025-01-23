@@ -1,4 +1,4 @@
-# Course Overview: version control with Git & GitHub
+# Course Overview: Git and GitHub for Efficient Collaborative Programming
 
 ## 1. DESCRIPTION
 
@@ -9,7 +9,7 @@ In this hands-on course, you will explore the essentials of version control and 
 - **Using GitHub:** Learn how to collaborate with teams and share projects using GitHub.
 - **Basic Git Commands:** Master essential commands for version control, resolving conflicts, and working with remote repositories.
 
-For any questions, contact: [iazcarateu@unav.es](mailto:iazcarateu@unav.es)
+For any questions, contact: X
 
 ---
 
@@ -17,8 +17,8 @@ For any questions, contact: [iazcarateu@unav.es](mailto:iazcarateu@unav.es)
 
 These are the prerequisites to take the course. Everyone should do the following before the class:
 
-- Install Git (version control software). MacOS and Linux users commonly have this preinstalled. Windows users must install it and follow the installation steps.
-- Create a GitHub account.
+- Install [Git](https://git-scm.com/) (version control software). MacOS and Linux users commonly have this preinstalled. Windows users must install it and follow the installation steps.
+- Create a [GitHub](https://github.com/) account.
 - Have any code editor installed, such as Visual Studio, PyCharm, RStudio, etc.
 
 ---
