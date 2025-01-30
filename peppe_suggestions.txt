@@ -1,0 +1,49 @@
+1) create an account on GitHub
+2) install Git on your PC
+    a) configure git:
+       git config --global user.name "peppe"
+       git config --global user.email "peppe@something.es"
+3) create an ssh key
+4) clone remote repo to your PC
+
+Branch
+1) create a branch
+2) switch to branch
+3) make a modification
+4) commit:
+       git add ./
+       git commit -m "minor changes"
+       git push your_branch_name 
+
+Fork
+1) Create a fork
+-Go to the GitHub page of the repository you want to fork (e.g. https://github.com/City-Science-Lab-Gipuzkoa/Course_Git_CSLG)
+-Click the "Fork" button in the top-right corner of the page
+-Select your GitHub account as the destination for the fork
+-Click "Create fork"
+
+2) Clone the forked repository
+-Go to your GitHub page and find the forked repository (e.g. https://github.com/your-username/Course_Git_CSLG)
+-Click the "Code" button and select "Clone"
+-Copy the clone URL (e.g. git@github.com:peppefdf/Course_Git_CSLG.git) ---> SSH option
+-Open a terminal or command prompt and navigate to the directory where you want to clone the repository
+-Run the command git clone git@github.com:peppefdf/Course_Git_CSLG.git
+
+3) Make modifications
+-Navigate into the cloned repository (e.g. cd Course_Git_CSLG)
+-Make changes to the files as needed (e.g. edit a file, add a new file, etc.)
+-Use git add to stage the changes (e.g. git add .)
+-Use git commit to commit the changes (e.g. git commit -m "Made some changes")
+
+
+4) Push changes to the forked repository
+-Use git push to push the changes to the forked repository (e.g. git push origin master)
+-Go to your GitHub page and find the forked repository
+-Click the "Code" button and select "Pull requests"
+-Click "New pull request"
+
+5) Create a pull request
+-Select the original repository (e.g. City-Science-Lab-Gipuzkoa/Course_Git_CSLG) as the target for the pull request
+-Select the branch you want to merge into (e.g. master)
+-Add a title and description for the pull request
+-Click "Create pull request"
